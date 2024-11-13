@@ -8,6 +8,12 @@ public class pratica {
 		int[] subArray = {785675, 56, 5675, 56544, 234};
 		int[] prodArray = {6, 8, 20, 23, 12};
 
+		
+		int sum = 0;
+		for (int i = 0; i < sumArray.length; i++) {
+			sum = sum + sumArray[i];
+		}
+		System.out.print(sum);
 	}
 
 }
